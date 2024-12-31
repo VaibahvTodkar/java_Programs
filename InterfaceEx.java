@@ -19,7 +19,8 @@ class SampleEx implements display, movable {
 
 public class InterfaceEx {
     public static void main(String[] args) {
-        display d = new SampleEx();
+        display d = new SampleEx();   // upcasting
+        
         d.display();
         d.msg();
 
