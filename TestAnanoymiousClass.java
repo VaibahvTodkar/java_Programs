@@ -6,6 +6,7 @@ public class TestAnanoymiousClass {
         Dog d = new Dog() {
             void eat(){
                 System.out.println("Dog is Eating");
+                System.out.println("Food is Nice");
             }
         };
 

@@ -4,6 +4,7 @@ public class InnerOuterDemo {
     class InnderDemo{
         public void display(){
             System.out.println("Data : " + data);
+            System.out.println("Inner class");
         }
     }
 
