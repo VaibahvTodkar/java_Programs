@@ -1,3 +1,4 @@
+// Demon thread are executed at the end  and its execution is depend on user mursey. 
 public class DemonDemoThread extends Thread {
     public void run(){
         if (Thread.currentThread().isDaemon()) {
